@@ -1,0 +1,25 @@
+{
+  "name": "hex-architect",
+  "version": "0.0.2",
+  "description": "A collection of components for creating hexagonal architecture with ports and adapters which allows for clean separation of the application and domain layers from the execution environment.",
+  "main": "./bin/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpapukchiev/hex-architect.git"
+  },
+  "keywords": [
+    "typescript",
+    "hexagonal-architecture",
+    "hexagon",
+    "framework"
+  ],
+  "author": "Daniel Papukchiev <daniel@studyportals.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpapukchiev/hex-architect/issues"
+  },
+  "homepage": "https://github.com/dpapukchiev/hex-architect#readme"
+}
