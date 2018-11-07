@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/dpapukchiev/hex-architect#readme",
   "dependencies": {
-    "reflect-metadata": "^0.1.12"
+    "reflect-metadata": "^0.1.12",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^3.4.4"
   }
 }
