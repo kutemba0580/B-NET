@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./bin && tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "deploy:patch": "npm version patch && npm publish",
+    "deploy:minor": "npm version minor && npm publish",
+    "deploy:major": "npm version major && npm publish"
   },
   "repository": {
     "type": "git",
