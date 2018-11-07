@@ -1,5 +1,7 @@
-import { Result } from "../../core";
-export declare class EventsResult implements Result {
-    readonly events: Event[];
-    constructor(events: Event[]);
+import { Event, Result } from 'hex-architect';
+
+export declare class EventsResult<T extends Event> implements Result {
+
+    readonly events: T[];
+    constructor(events: T[]);
 }
