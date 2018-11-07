@@ -5,11 +5,7 @@
   "main": "./bin/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./bin && tsc",
-    "prepublish": "npm run build",
-    "deploy:patch": "npm version patch && npm run build && npm publish",
-    "deploy:minor": "npm version minor && npm run build && npm publish",
-    "deploy:major": "npm version major && npm run build && npm publish"
+    "build": "rm -rf ./bin && tsc"
   },
   "repository": {
     "type": "git",
