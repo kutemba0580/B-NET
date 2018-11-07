@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dpapukchiev/hex-architect/issues"
   },
-  "homepage": "https://github.com/dpapukchiev/hex-architect#readme"
+  "homepage": "https://github.com/dpapukchiev/hex-architect#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  }
 }
