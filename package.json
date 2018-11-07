@@ -1,6 +1,6 @@
 {
   "name": "hex-architect",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A collection of components for creating hexagonal architecture with ports and adapters which allows for clean separation of the application and domain layers from the execution environment.",
   "main": "./bin/src/index.js",
   "scripts": {
