@@ -4,7 +4,9 @@
   "description": "A collection of components for creating hexagonal architecture with ports and adapters which allows for clean separation of the application and domain layers from the execution environment.",
   "main": "./bin/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./bin && tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
     "hexagon",
     "framework"
   ],
-  "author": "Daniel Papukchiev <daniel@studyportals.com>",
+  "author": "Daniel Papukchiev <dpapukchiev@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dpapukchiev/hex-architect/issues"
