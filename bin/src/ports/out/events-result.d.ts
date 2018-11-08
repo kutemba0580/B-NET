@@ -1,7 +1,7 @@
 import { Event, Result } from 'hex-architect';
 
-export declare class EventsResult<T extends Event> implements Result {
+export declare class EventsResult implements Result {
 
-    readonly events: T[];
-    constructor(events: T[]);
+    readonly events: Event[];
+    constructor(events: Event[]);
 }
