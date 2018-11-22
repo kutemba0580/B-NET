@@ -20,9 +20,10 @@ Use cases or command/query handlers define the application layer. Each use case 
 1. boundaries
     * in-port interface
     * out-port interface
-    * command handler interface
-2. command
-3. command handler
+    * command/query handler interface
+2. command/query
+3. command/query handler
+4. command/query result
 
 ## Flow of control
 
