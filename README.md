@@ -1,6 +1,7 @@
 ![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/hex-architect.svg)
 ![npm](https://img.shields.io/npm/dt/hex-architect.svg)
 ![npm](https://img.shields.io/npm/v/hex-architect.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9eaa7a9df7bad486e832/maintainability)](https://codeclimate.com/github/dpapukchiev/hex-architect/maintainability)
 
 # hex-architect
 
