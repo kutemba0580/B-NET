@@ -7,6 +7,6 @@ export abstract class DomainEvent implements Event {
 	constructor(
 		public readonly eventId: string
 	) { }
-	
+
 	public static generateId() { return uuid(); }
 }

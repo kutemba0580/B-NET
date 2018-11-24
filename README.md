@@ -1,3 +1,7 @@
+![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/hex-architect.svg)
+![npm](https://img.shields.io/npm/dt/hex-architect.svg)
+![npm](https://img.shields.io/npm/v/hex-architect.svg)
+
 # hex-architect
 
 hex-architect is collection of components for creating hexagonal architecture with ports and adapters which allows for clean separation of the application and domain layers from the execution environment.
@@ -20,9 +24,10 @@ Use cases or command/query handlers define the application layer. Each use case 
 1. boundaries
     * in-port interface
     * out-port interface
-    * command handler interface
-2. command
-3. command handler
+    * command/query handler interface
+2. command/query
+3. command/query handler
+4. command/query result
 
 ## Flow of control
 

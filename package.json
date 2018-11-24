@@ -1,11 +1,16 @@
 {
   "name": "hex-architect",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "A collection of components for creating hexagonal architecture with ports and adapters which allows for clean separation of the application and domain layers from the execution environment.",
-  "main": "./bin/src/index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./bin && tsc"
+    "prepush":"npm run build && npm run lint-fix",
+    "prepare-deployment": "cp package.json bin/package.json",
+    "deploy": "npm run build && npm run prepare-deployment && npm publish bin",
+    "build": "rm -rf bin && tsc",
+    "lint": "tslint 'src/**/*.ts'",
+    "lint-fix": "tslint --fix 'src/**/*.ts'",
+    "coverage": "nyc report --reporter=lcov"
   },
   "repository": {
     "type": "git",
@@ -25,9 +30,12 @@
   "homepage": "https://github.com/dpapukchiev/hex-architect#readme",
   "dependencies": {
     "reflect-metadata": "^0.1.12",
+    "typescript": "^3.1.6",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "@types/uuid": "^3.4.4"
+    "@types/uuid": "^3.4.4",
+    "prepush": "^3.1.11",
+    "ts-lint": "^4.5.1"
   }
 }
